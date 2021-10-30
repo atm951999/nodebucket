@@ -1,0 +1,153 @@
+[
+  {
+    "employeeId": 1007,
+    "first_name": "John",
+    "last_name": "Harris",
+    "toDo": [
+      {
+        "_id": 100,
+        "task": "Install GitHub"
+      },
+      {
+        "_id": 101,
+        "task": "Configure GitHub"
+      }
+    ],
+    "done": [
+      {
+        "_id": 1000,
+        "task": "Wash the Car"
+      },
+      {
+        "_id": 1001,
+        "task":"Run the vacuum"
+      }
+    ]
+  },
+  {
+    "employeeId": 1008,
+    "first_name": "Mike",
+    "last_name": "Barber",
+    "toDo": [
+      {
+        "_id": 200,
+        "task": "Install Umlet"
+      },
+      {
+        "_id": 201,
+        "task": "Install McAfee"
+      }
+    ],
+    "done": [
+      {
+        "_id": 2000,
+        "task": "Wash the dishes"
+      },
+      {
+        "_id": 2001,
+        "task": "Do the laundry"
+      }
+    ]
+  },
+  {
+    "employeeId": 1009,
+    "first_name": "David",
+    "last_name": "Chasteen",
+    "toDo": [
+      {
+        "_id": 300,
+        "task": "Install Firefox"
+      },
+      {
+        "_id": 201,
+        "task": "Copy Files"
+      }
+    ],
+    "done": [
+      {
+        "_id": 3000,
+        "task": "Dust"
+      },
+      {
+        "_id": 3001,
+        "task": "Wash windows"
+      }
+    ]
+  },
+  {
+    "employeeId": 1010,
+    "first_name": "Brad",
+    "last_name": "McComas",
+    "toDo": [
+      {
+        "_id": 400,
+        "task": "Install Chrome"
+      },
+      {
+        "_id": 401,
+        "task": "Install Office"
+      }
+    ],
+    "done": [
+      {
+        "_id": 4000,
+        "task": "Clean vents"
+      },
+      {
+        "_id": 4001,
+        "task": "Go to grocery"
+      }
+    ]
+  },
+  {
+    "employeeId": 1011,
+    "first_name": "Linda",
+    "last_name": "Powers",
+    "toDo": [
+      {
+        "_id": 500,
+        "task": "Configure Outlook"
+      },
+      {
+        "_id": 501,
+        "task": "Import Favorites"
+      }
+    ],
+    "done": [
+      {
+        "_id": 5000,
+        "task": "Take a bath"
+      },
+      {
+        "_id": 5001,
+        "task": "Fold the laundry"
+      }
+    ]
+  },
+  {
+    "employeeId": 1012,
+    "first_name": "Michelle",
+    "last_name": "Cornett",
+    "toDo": [
+      {
+        "_id": 600,
+        "task": "Install ICQ"
+      },
+      {
+        "_id": 601,
+        "task": "Install VS Code"
+      }
+    ],
+    "done": [
+      {
+        "_id": 6000,
+        "task": "Paint"
+      },
+      {
+        "_id": 6001,
+        "task": "Mow the lawn"
+      }
+    ]
+  }
+
+]

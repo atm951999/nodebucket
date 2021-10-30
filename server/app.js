@@ -4,9 +4,10 @@
 const express = require('express');
 const http = require('http');
 const morgan = require('morgan');
-const bodyParser = require('body-parser');                        
+const bodyParser = require('body-parser');
 const path = require('path');
 const mongoose = require('mongoose');
+const employeeRoutes = require('./routes/employee-routes.js')
 
 /**
  * App configurations
@@ -17,6 +18,7 @@ app.use(bodyParser.urlencoded({'extended': true}));
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, '../dist/nodebucket')));
 app.use('/', express.static(path.join(__dirname, '../dist/nodebucket')));
+app.use('/api', [employeeRoutes])
 
 /**
  * Variables
@@ -24,7 +26,7 @@ app.use('/', express.static(path.join(__dirname, '../dist/nodebucket')));
 const port = 3000; // server port
 
 // TODO: This line will need to be replaced with your actual database connection string
-const conn = 'mongodb+srv://superadmin:s3cret@cluster0-lujih.mongodb.net/nodebucket?retryWrites=true&w=majority';
+const conn = 'mongodb+srv://admin:admin@buwebdev-cluster-1.teesf.mongodb.net/nodebucket?retryWrites=true&w=majority';
 
 /**
  * Database connection
