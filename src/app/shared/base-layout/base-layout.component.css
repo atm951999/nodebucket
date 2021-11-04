@@ -1,40 +1,56 @@
-.logo {
-    margin-left: 75px;
-    font-size: 24px;
-    font-weight: lighter;;
+
+
+.toolbar {
+  font-family: "Covered By Your Grace", Arial, Helvetica, sans-serif;
+}
+
+.input {
+
+}
+
+  .move-right {
+    flex: 1 1 auto;
   }
-  
-  .navbar-container {
-    padding: 5px;
+
+  .mat-icon {
+    color: blueviolet;
+    font-size: 20px;
+
+
   }
-  
+
+  .mat-toolbar-row {
+    height: 35px;
+    width: 100%;
+    margin: 0;
+  }
+
   .navbar-link {
     font-size: 24px;
     font-weight: lighter;
   }
-  
+
   .main-content {
     padding-left: 30px;
   }
-  
+
   .footer {
     bottom: 0;
     position: absolute;
     width: 100%;
   }
-  
+
   .footer-content {
     font-size: 16px;
     font-weight: lighter;
     padding-left: 100px;
     letter-spacing: 3px;
   }
-  
+
   .bu-link {
     text-decoration: none;
   }
-  
+
   .bu-link:hover {
     text-decoration: underline;
   }
-  

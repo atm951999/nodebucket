@@ -10,10 +10,13 @@ import { AuthLayoutComponent } from './shared/auth-layout/auth-layout.component'
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SigninComponent } from './pages/signin/signin.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { SigninComponent } from './pages/signin/signin.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    MatCardModule,
+    MatFormFieldModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
