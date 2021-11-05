@@ -1,41 +1,16 @@
 <div class="toolbar" fxLayout="column">
 
     <!-- navigation -->
-    <mat-toolbar fxFlex="100%;">
-
+    <mat-toolbar class="toolbar">
       <mat-toolbar-row>
-
-
-
-            <img src="assets/bucket-icon.png" height="35" />
-
-            <span>nodebucket</span>
-            <span class="move-right"></span>
-
-
-              <mat-form-field appearance="outline">
-
-
-                <input matInput placeholder="Search">
-                <span><mat-icon matSuffix>search</mat-icon></span>
-
-
-              </mat-form-field>
-
-
-
-            <span class="move-right"></span>
-            <button mat-raised-button>Search</button>
-
-
+        <img src="assets/bucket-icon.png" height="35" />
+        <span>nodebucket</span>
       </mat-toolbar-row>
+      <mat-toolbar-row fxLayout="row wrap" fxLayoutAlign="start end">
 
-    </mat-toolbar>
 
-    <mat-toolbar>
-      <mat-toolbar-row>
-        <div style="width: 100%">
-          <div fxLayout="row wrap" fxLayoutAlign="start end">
+
+
             <button mat-button routerLink="/home">Home</button>
             <button mat-button routerLink="/my-lists">My Lists</button>
             <button mat-button routerLink="/about">About Us</button>
@@ -43,8 +18,8 @@
             <span class="move-right"></span>
             <mat-icon>account_circle</mat-icon>
             <mat-icon>arrow_drop_down</mat-icon>
-          </div>
-        </div>
+
+
       </mat-toolbar-row>
     </mat-toolbar>
 
