@@ -13,11 +13,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-auth-layout',
-  templateUrl: './auth-layout.component.html',
-  styleUrls: ['./auth-layout.component.css']
+  selector: 'app-about-us',
+  templateUrl: './about-us.component.html',
+  styleUrls: ['./about-us.component.css']
 })
-export class AuthLayoutComponent implements OnInit {
+export class AboutUsComponent implements OnInit {
 
   constructor() { }
 

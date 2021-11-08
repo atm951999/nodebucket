@@ -1,9 +1,58 @@
-<div fxLayout="column" class="main-welcome">
-    <h1 class="title">
-      Welcome to WEB 450's - nodebucket Project <br />
-      <span class="subtitle">
-        Pay close attention to the requirements, double and triple check the files for code attribution, and do not wait unitl the last minute to begin working on each item.
-      </span>
-    </h1>
+<!--
+============================================
+; Title: Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of the MEAN Stack.
+;===========================================
+-->
+
+  <div fxLayout fxLayoutAlign="center">
+      <h1 class="heading">
+        Welcome to WEB 450's - nodebucket Project <br />
+      </h1>
   </div>
-  
+
+  <mat-container fxLayout fxLayoutAlign="center" fxLayoutGap="300px">
+    <mat-card class="container" fxFlex fxLayout="column">
+      <mat-card-title fxFlex fxLayoutAlign="center center">ToDo</mat-card-title>
+      <mat-card-content fxFlex fxLayout="column" fxLayoutAlign="center center">
+        <p *ngFor="let task of toDo; index as i">
+        Task {{i+1}} - {{task.text}}
+        </p>
+      </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="accent">Delete ToDo</button>
+        </mat-card-actions>
+    </mat-card>
+
+    <mat-card class="container" fxFlex fxLayout="column">
+      <mat-card-title fxFlex fxLayoutAlign="center center">Done</mat-card-title>
+      <mat-card-content fxFlex fxLayout="column" fxLayoutAlign="center center">
+        <p *ngFor="let task of done; index as i">
+          Task {{i+1}} - {{task.text}}
+        </p>
+      </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="accent">Delete Done</button>
+        </mat-card-actions>
+    </mat-card>
+
+  </mat-container>
+
+  <mat-container fxLayout fxLayoutAlign="center">
+    <mat-card-content class="wide-button">
+      <mat-card-actions>
+        <button mat-raised-button (click)="addTask()" color="accent" class="wide-button">Create Task</button>
+      </mat-card-actions>
+    </mat-card-content>
+
+  </mat-container>
+
+
+
+
+
+

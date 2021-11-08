@@ -1,10 +1,5 @@
 <div fxLayout="column">
 
-  <div fxFlex *ngIf="error">
-    {{ error }}
-  </div>
-
-
   <mat-card fxFlex>
     <mat-card-title>
       Employee Sign-In Page
@@ -25,9 +20,20 @@
       </mat-card-content>
 
       <mat-card-actions algin="end">
-        <button type="submit" fxFlex mat-raised-button color="primary" [disabled]="!form.valid">Sign-In</button>
+        <button type="submit" fxFlex mat-raised-button color="accent" [disabled]="!form.valid">Sign-In</button>
       </mat-card-actions>
+
+        <mat-card-footer>
+          <mat-card-content class="alert" fxFlex *ngIf="error" >
+
+              {{ error }}
+
+          </mat-card-content>
+        </mat-card-footer>
+
     </form>
+
+
 
   </mat-card>
 </div>

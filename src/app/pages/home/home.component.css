@@ -1,14 +1,61 @@
-.main-welcome {
+/*
+============================================
+; Title: Assignment Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of The MEAN stack.
+===========================================
+*/
+
+.heading {
     margin-top: 30px;
-  }
-  
-  .title {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 40px;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 400;
   }
-  
-  .subtitle {
-    text-align: center;
-    font-size: 14px;
-  }
-  
+
+.center {
+  width: 30%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 40px;
+  width: 30%;
+  min-height: 200px;
+}
+
+.wide-button {
+  margin-top: 50px;
+  width: 600px;
+}
+
+mat-card-title {
+  background: rgb(243, 229, 245);
+  padding: 5px;
+}
+
+mat-card-content {
+  font-size: 24px;
+
+}
+
+p {
+  margin: 10px;
+  line-height: 3px;
+
+}
+
+
+
+
+

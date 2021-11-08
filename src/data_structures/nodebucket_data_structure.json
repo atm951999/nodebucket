@@ -5,22 +5,19 @@
     "last_name": "Harris",
     "toDo": [
       {
-        "_id": 100,
-        "task": "Install GitHub"
+        "text": "Install GitHub"
       },
       {
-        "_id": 101,
-        "task": "Configure GitHub"
+
+        "text": "Configure GitHub"
       }
     ],
     "done": [
       {
-        "_id": 1000,
-        "task": "Wash the Car"
+        "text": "Wash the Car"
       },
       {
-        "_id": 1001,
-        "task":"Run the vacuum"
+        "text":"Run the vacuum"
       }
     ]
   },
@@ -30,22 +27,18 @@
     "last_name": "Barber",
     "toDo": [
       {
-        "_id": 200,
-        "task": "Install Umlet"
+        "text": "Install Umlet"
       },
       {
-        "_id": 201,
-        "task": "Install McAfee"
+        "text": "Install McAfee"
       }
     ],
     "done": [
       {
-        "_id": 2000,
-        "task": "Wash the dishes"
+        "text": "Wash the dishes"
       },
       {
-        "_id": 2001,
-        "task": "Do the laundry"
+        "text": "Do the laundry"
       }
     ]
   },
@@ -55,22 +48,18 @@
     "last_name": "Chasteen",
     "toDo": [
       {
-        "_id": 300,
-        "task": "Install Firefox"
+        "text": "Install Firefox"
       },
       {
-        "_id": 201,
-        "task": "Copy Files"
+        "text": "Copy Files"
       }
     ],
     "done": [
       {
-        "_id": 3000,
-        "task": "Dust"
+        "text": "Dust"
       },
       {
-        "_id": 3001,
-        "task": "Wash windows"
+        "text": "Wash windows"
       }
     ]
   },
@@ -80,22 +69,18 @@
     "last_name": "McComas",
     "toDo": [
       {
-        "_id": 400,
-        "task": "Install Chrome"
+        "text": "Install Chrome"
       },
       {
-        "_id": 401,
-        "task": "Install Office"
+        "text": "Install Office"
       }
     ],
     "done": [
       {
-        "_id": 4000,
-        "task": "Clean vents"
+        "text": "Clean vents"
       },
       {
-        "_id": 4001,
-        "task": "Go to grocery"
+        "text": "Go to grocery"
       }
     ]
   },
@@ -105,22 +90,18 @@
     "last_name": "Powers",
     "toDo": [
       {
-        "_id": 500,
-        "task": "Configure Outlook"
+        "text": "Configure Outlook"
       },
       {
-        "_id": 501,
-        "task": "Import Favorites"
+        "text": "Import Favorites"
       }
     ],
     "done": [
       {
-        "_id": 5000,
-        "task": "Take a bath"
+        "text": "Take a bath"
       },
       {
-        "_id": 5001,
-        "task": "Fold the laundry"
+        "text": "Fold the laundry"
       }
     ]
   },
@@ -130,22 +111,18 @@
     "last_name": "Cornett",
     "toDo": [
       {
-        "_id": 600,
-        "task": "Install ICQ"
+        "text": "Install ICQ"
       },
       {
-        "_id": 601,
-        "task": "Install VS Code"
+        "text": "Install VS Code"
       }
     ],
     "done": [
       {
-        "_id": 6000,
-        "task": "Paint"
+        "text": "Paint"
       },
       {
-        "_id": 6001,
-        "task": "Mow the lawn"
+        "text": "Mow the lawn"
       }
     ]
   }

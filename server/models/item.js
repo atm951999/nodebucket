@@ -9,15 +9,14 @@
 ===========================================
 */
 
-.mat-card {
-  width: 30%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+const mongoose = require("mongoose");
 
-.alert {
-  color: red;
-}
+// Create Schema variable and assign mongoose.Schema object.
+const Schema = mongoose.Schema;
+
+const itemSchema = new Schema ({
+  text: String
+})
+
+
+module.exports = itemSchema;

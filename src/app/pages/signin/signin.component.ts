@@ -1,3 +1,15 @@
+/*
+============================================
+; Title: Assignment Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of The MEAN stack.
+===========================================
+*/
+
+/* Imports */
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';

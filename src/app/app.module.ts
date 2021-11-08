@@ -1,6 +1,17 @@
+/*
+============================================
+; Title: Assignment Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of The MEAN stack.
+===========================================
+*/
+
+/* Imports */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,6 +27,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SigninComponent } from './pages/signin/signin.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { CreateTaskComponent } from './pages/create-task/create-task.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
 
 
 @NgModule({
@@ -24,7 +40,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     HomeComponent,
     BaseLayoutComponent,
     AuthLayoutComponent,
-    SigninComponent
+    SigninComponent,
+    ContactUsComponent,
+    AboutUsComponent,
+    CreateTaskComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +57,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     FormsModule,
     ReactiveFormsModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDialogModule,
+    MatInputModule
 
   ],
   providers: [],

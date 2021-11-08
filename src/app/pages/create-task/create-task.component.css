@@ -9,15 +9,18 @@
 ===========================================
 */
 
-.mat-card {
-  width: 30%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+mat-card {
+  padding: 10px;
 }
 
-.alert {
-  color: red;
+mat-card title {
+  background: rgb(211, 145, 226);
+}
+
+button {
+  min-width: 150px;
+}
+
+input {
+
 }

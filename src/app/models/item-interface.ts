@@ -9,15 +9,12 @@
 ===========================================
 */
 
-.mat-card {
-  width: 30%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+/* Exports */
+export interface Item {
+  text: string
 }
 
-.alert {
-  color: red;
+export interface ToDoItems {
+  toDo: Item[]
+  done: Item[]
 }

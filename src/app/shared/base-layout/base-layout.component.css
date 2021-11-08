@@ -1,39 +1,42 @@
-
+/*
+============================================
+; Title: Assignment Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of The MEAN stack.
+===========================================
+*/
 
 .toolbar {
   font-family: "Covered By Your Grace", Arial, Helvetica, sans-serif;
-
-
-
+  font-size: 40px;
 
 }
-
-
-
-
 
 .move-right {
   flex: 1 1 auto;
 }
 
 .mat-icon {
-  color: blueviolet;
-  font-size: 25px;
-
+  color: "primary";
+  font-size: 30px;
+  padding-bottom: 7px;
 
 }
 
 .mat-toolbar-row {
-  height: 35px;
+  height: 40px;
   width: 100%;
   margin: 0;
-
+  padding: 7px;
 
 }
 
 button {
   font-family: "Covered By Your Grace", Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .main-content {
@@ -44,7 +47,7 @@ button {
   bottom: 0;
   position: absolute;
   width: 100%;
-  text-align: center;
+
 }
 
 .footer-content {
@@ -52,6 +55,10 @@ button {
   font-weight: lighter;
   padding-left: 100px;
   letter-spacing: 3px;
+  justify-content: center;
+
+
+
 }
 
 .bu-link {

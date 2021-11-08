@@ -1,24 +1,32 @@
+<!--
+============================================
+; Title: Week 3
+; Author: Professor Krasso
+; Date: 07 November 2021
+; Modified By: Angela Martin
+; Description: This program demonstrates the
+; use of the MEAN Stack.
+;===========================================
+-->
+
 <div class="toolbar" fxLayout="column">
 
     <!-- navigation -->
     <mat-toolbar class="toolbar">
-      <mat-toolbar-row>
+
+      <mat-toolbar-row fxLayoutAlign="center">
         <img src="assets/bucket-icon.png" height="35" />
         <span>nodebucket</span>
       </mat-toolbar-row>
+
       <mat-toolbar-row fxLayout="row wrap" fxLayoutAlign="start end">
 
-
-
-
             <button mat-button routerLink="/home">Home</button>
-            <button mat-button routerLink="/my-lists">My Lists</button>
             <button mat-button routerLink="/about">About Us</button>
             <button mat-button routerLink="/contact">Contact Us</button>
             <span class="move-right"></span>
-            <mat-icon>account_circle</mat-icon>
-            <mat-icon>arrow_drop_down</mat-icon>
-
+            <mat-icon color="primary">account_circle</mat-icon>
+            <mat-icon color="primary">arrow_drop_down</mat-icon>
 
       </mat-toolbar-row>
     </mat-toolbar>
@@ -31,7 +39,7 @@
     </div>
 
     <!-- footer -->
-    <div fxFlex>
+    <div>
       <footer class="footer">
         <mat-toolbar class="footer-content">
           <p>
