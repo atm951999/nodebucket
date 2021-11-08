@@ -26,7 +26,12 @@
             <button mat-button routerLink="/contact">Contact Us</button>
             <span class="move-right"></span>
             <mat-icon color="primary">account_circle</mat-icon>
-            <mat-icon color="primary">arrow_drop_down</mat-icon>
+            <button mat-button [matMenuTriggerFor]="menu"><mat-icon color="primary">arrow_drop_down</mat-icon></button>
+            <mat-menu #menu="matMenu">
+              <button mat-menu-item routerLink="session/signin">Sign-Out</button>
+              <button mat-menu-item routerLink="session/signin">Sign-In</button>
+            </mat-menu>
+
 
       </mat-toolbar-row>
     </mat-toolbar>

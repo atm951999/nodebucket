@@ -9,9 +9,11 @@
 ===========================================
 */
 
-/* Imports */import { Component, OnInit } from '@angular/core';
+/* Imports */
+import { Component, OnInit } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatMenuModule } from '@angular/material/menu'
 
 @Component({
   selector: 'app-base-layout',

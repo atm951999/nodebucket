@@ -32,6 +32,7 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { CreateTaskComponent } from './pages/create-task/create-task.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { MatInputModule } from '@angular/material/input';
     MatCardModule,
     MatFormFieldModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    MatMenuModule
 
   ],
   providers: [],
