@@ -20,9 +20,10 @@
 }
 
 .mat-icon {
-  color: "primary";
+  color: #4DD0E1;
   font-size: 30px;
   padding-bottom: 7px;
+
 
 }
 
@@ -37,10 +38,26 @@
 button {
   font-family: "Covered By Your Grace", Arial, Helvetica, sans-serif;
   font-size: 25px;
+
 }
+
+button:hover {
+  background-color: #E0F7FA;
+}
+
+.mat-menu-item:hover {
+  background-color: #E0F7FA;
+}
+
+.active {
+  background-color: #4DD0E1;
+}
+
+
 
 .main-content {
   padding-left: 30px;
+  padding-right: 30px;
 }
 
 .footer {
@@ -53,6 +70,7 @@ button {
 .footer-content {
   font-size: 16px;
   font-weight: lighter;
+  color: 186, 104, 200;
   padding-left: 100px;
   letter-spacing: 3px;
   justify-content: center;
@@ -63,8 +81,11 @@ button {
 
 .bu-link {
   text-decoration: none;
+  font-weight: 400;
+  color: #4DD0E1;
 }
 
 .bu-link:hover {
   text-decoration: underline;
+  color: #4DD0E1;
 }

@@ -12,9 +12,10 @@
 .container {
   text-align: center;
   font-weight: lighter;
-  margin-top: 150px;
+  margin: 150px 30px auto 30px;
   width: 30%;
   min-height: 200px;
+  background-color: #f4f4f4;
 }
 
 .heading {
@@ -23,14 +24,21 @@
     font-size: 40px;
     text-align: center;
     font-weight: 400;
-  }
+}
+
+.main-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 mat-card {
   margin-top: 400px;
 }
 
 mat-card-title {
-  background: rgb(243, 229, 245);
+  background: #4DD0E1;
+  min-height: 60px;
+  max-height: 60px;
 }
 
 p {

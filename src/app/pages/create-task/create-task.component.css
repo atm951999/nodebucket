@@ -10,17 +10,25 @@
 */
 
 mat-card {
-  padding: 10px;
+  padding: 20px 20px 20px 30px;
 }
 
-mat-card title {
-  background: rgb(211, 145, 226);
+mat-card-title {
+  margin: auto auto auto -8px;
+  background: #4DD0E1;
+  text-align: center;
+  min-height: 40px;
+
 }
 
 button {
+  margin: 10px;
   min-width: 150px;
-}
-
-input {
 
 }
+
+mat-form-field {
+  width: 100%;
+}
+
+

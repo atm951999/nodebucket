@@ -21,9 +21,9 @@
 
       <mat-toolbar-row fxLayout="row wrap" fxLayoutAlign="start end">
 
-            <button mat-button routerLink="/home">Home</button>
-            <button mat-button routerLink="/about">About Us</button>
-            <button mat-button routerLink="/contact">Contact Us</button>
+            <button mat-button routerLink="" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Home</button>
+            <button mat-button routerLink="/about" routerLinkActive="active">About Us</button>
+            <button mat-button routerLink="/contact" routerLinkActive="active">Contact Us</button>
             <span class="move-right"></span>
             <mat-icon color="primary">account_circle</mat-icon>
             <button mat-button [matMenuTriggerFor]="menu"><mat-icon color="primary">arrow_drop_down</mat-icon></button>
@@ -32,15 +32,16 @@
               <button mat-menu-item routerLink="session/signin">Sign-In</button>
             </mat-menu>
 
-
       </mat-toolbar-row>
     </mat-toolbar>
 
     <!-- main content -->
-    <div fxFlex>
+    <div>
+
       <main class="main-content" fxFlex="100%;">
         <router-outlet></router-outlet>
       </main>
+
     </div>
 
     <!-- footer -->
@@ -48,7 +49,7 @@
       <footer class="footer">
         <mat-toolbar class="footer-content">
           <p>
-            &copy; {{year | date: 'yyyy'}} - nodebucket - <a href="https://www.bellevue.edu/" class="bu-link" target="_blank">Bellevue University</a>
+            &copy; {{year | date: 'yyyy'}} - Angela Martin - nodebucket - <a href="https://www.bellevue.edu/" class="bu-link" target="_blank">Bellevue University</a>
           </p>
         </mat-toolbar>
       </footer>

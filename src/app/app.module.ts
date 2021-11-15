@@ -33,6 +33,8 @@ import { CreateTaskComponent } from './pages/create-task/create-task.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 @NgModule({
@@ -44,7 +46,8 @@ import { MatMenuModule } from '@angular/material/menu';
     SigninComponent,
     ContactUsComponent,
     AboutUsComponent,
-    CreateTaskComponent
+    CreateTaskComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -61,8 +64,8 @@ import { MatMenuModule } from '@angular/material/menu';
     MatFormFieldModule,
     MatDialogModule,
     MatInputModule,
-    MatMenuModule
-
+    MatMenuModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]

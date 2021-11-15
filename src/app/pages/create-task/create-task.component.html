@@ -16,17 +16,16 @@
     </mat-card-title>
 
     <mat-card-content>
-
       <form>
-        <mat-form-field appearance="fill">
-          <input [(ngModel)]="task" matInput placeholder="Example: Do homework" name="task">
+        <mat-form-field>
+          <input [(ngModel)]="task" matInput placeholder="Example: Do homework" name="task" width="100%">
         </mat-form-field>
       </form>
     </mat-card-content>
 
     <mat-card-actions>
-      <button (click)="cancel()" mat-raised-button color="accent">Cancel</button>
-      <button (click)="createNewTask()" mat-raised-button color="accent">Create New Task</button>
+      <button (click)="cancel()" mat-raised-button style="background-color: #4DD0E1;">Cancel</button>
+      <button (click)="createNewTask()" mat-raised-button style="background-color: #4DD0E1;">Create New Task</button>
     </mat-card-actions>
 
   </mat-card>
