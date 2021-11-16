@@ -34,7 +34,7 @@ app.use('/api', [employeeRoutes])
 /**
  * Variables
  */
-const port = 3000; // server port
+const port = process.env.PORT || 3000; // server port
 
 // TODO: This line will need to be replaced with your actual database connection string
 const conn = 'mongodb+srv://admin:admin@buwebdev-cluster-1.teesf.mongodb.net/nodebucket?retryWrites=true&w=majority';
