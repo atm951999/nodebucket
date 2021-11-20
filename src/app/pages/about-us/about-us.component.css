@@ -16,6 +16,8 @@
   margin: 30px;
 }
 
+
+/* Top div */
 .top {
   background: #3D5467;
   width: 100%;
@@ -24,18 +26,20 @@
   top: 0;
   left: 0;
 }
-
+  /* Top div mat-card styling */
   .top mat-card {
     max-height: 80%;
     margin: 33px auto 33px 225px;
   }
 
-.top mat-card img {
-  object-fit: cover;
-  min-height: 120%;
-  max-height: 100%;
-}
+  /* Top div top-left image styling*/
+  .top mat-card img {
+    object-fit: cover;
+    min-height: 120%;
+    max-height: 100%;
+  }
 
+/* Middle div */
 .middle {
   background: #0FFF95;
   z-index: 50;
@@ -43,51 +47,78 @@
   width: 40%;
 }
 
+  /* Middle div top-right image Styling */
   .middle mat-card {
     height: 37%;
     width: 300px;
     margin: 57px 100px auto 115px;
   }
 
+/* mat-card header styling */
 mat-card-title {
   background-color: #4DD0E1;
   min-height: 30px;
-
 }
 
+/* Bottom div */
 .bottom {
   background: #DB5461;
   z-index: 50;
   margin-top: -385px;
-
 }
 
+/* Bottom left paragraph styling */
 .bottom-left p {
   margin-top: 30px;
 }
 
+/* Bottom right mat-card styling */
 .right.mat-card {
   max-height: 80%;
   margin-top: 33px;
 }
 
+/* Bottom right image styling  */
 .right.mat-card-img {
   object-fit: cover;
   min-height: 300px;
 }
 
+/* Bottom right image attribution styling and placement */
+.right-attribution {
+  font-size: 10px;
+  font-weight: lighter;
+  color: white;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+/* Top left mat-card image */
 .left {
   max-height: 80%;
   max-width: 30%;
   margin-top: 35px;
 }
 
+/* Top left image attribution styling */
+.left-attribution {
+  font-size: 10px;
+  font-weight: lighter;
+  color: white;
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -50px;
+}
+
+/* Text styling for text */
 .text {
   background-color: #F5F5F5;
   text-align: center;
   font-size: 11px;
 }
 
+/* Paragraph styling */
 p {
   text-align: justify;
   text-indent:15px;
